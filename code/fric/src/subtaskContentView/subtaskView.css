@@ -1,0 +1,28 @@
+.sort-button{
+    width: 20px;
+    height: 20px;
+}
+
+.subtask-form{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    align-self: center;
+}
+
+.right label, .left label{
+    width:100%;
+}
+
+
+.subtask-data{
+    width: 200px;
+    height: 30px;
+}
+
+
+.subtask-title-buttons{
+    display: flex;
+    justify-content: space-between;
+}

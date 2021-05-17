@@ -1,0 +1,21 @@
+.task-form{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right label, .left label{
+    width:100%;
+}
+
+.left{
+    align-self: center;
+}
+.task-data{
+    width: 100%;
+    height: 30px;
+}
+
+.h2{
+    text-align: center;
+}
+
