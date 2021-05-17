@@ -1,0 +1,52 @@
+{
+  "name": "fric",
+  "version": "1.23.3",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "mongodb": "^3.6.2",
+    "mongodb-core": "^3.2.7",
+    "popper": "^1.0.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-datepicker": "^3.3.0",
+    "react-dom": "^16.13.1",
+    "react-globally": "^1.1.0",
+    "react-multiselect-checkboxes": "^0.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-row-select-table": "^1.0.16",
+    "react-scripts": "^3.4.4",
+    "react-select": "^3.1.0",
+    "react-sweet-progress": "^1.1.2",
+    "react-table": "^7.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-flask-api": "cd python && source venv/bin/activate && flask run --no-debugger",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000"
+}
