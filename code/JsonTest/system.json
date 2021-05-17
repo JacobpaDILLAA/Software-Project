@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5f84d00f20643f421442a7e7"},"System_Info":"WindowsWellsFargo","System_Description":"Some random description","System_Location":"UTEP","System_Router":"20102","System_Switch":"JIS(98203)","Test_Plan":"None","Confidentiality":"","Integrity":"","Availability":"","Num_task":13,"Num_findings":10,"Progress":"Assigned","Event": "Event 1"}
+

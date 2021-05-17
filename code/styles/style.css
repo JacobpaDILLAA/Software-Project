@@ -1,0 +1,367 @@
+.topNavigationBarLook ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topNavigationBar li {
+    float: left;
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #000;
+}
+
+.topNavigationBar li a,
+.dropbtn {
+    background-color: #333;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topNavigationBar .search-container {
+    float: right;
+    margin-right: 6px;
+}
+
+.topNavigationBar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.SystemContentView .systems-content-view button {
+    padding: 6px 10px;
+    margin-bottom: 8px;
+    background: #ddd;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.SystemContentView .system-overview-buttons button {
+
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.topNavigationBar .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+
+dd {
+    margin-left: 20px;
+}
+
+
+.topNavigationBar .search-container button:hover {
+    background: #ccc;
+}
+
+.notification {
+    display: none;
+    position: fixed;
+    padding: 10px;
+    width: 400px;
+    left: 50%;
+    margin-left: -250px;
+    height: 200px;
+    top: 50%;
+    margin-top: -100px;
+    background: rgb(187, 178, 178);
+    z-index: 20;
+}
+
+#notify1 {
+    -webkit-box-shadow: 0px 0px 0px 9999px rgba(226, 214, 214, 0.5);
+    box-shadow: 0px 0px 0px 9999px rgba(226, 214, 214, 0.5);
+}
+
+.form {
+    margin: 0 auto;
+    width: 290px;
+}
+
+.form label {
+    display: block;
+    text-align: right;
+    float: left;
+}
+
+.form input {
+    display: block;
+    text-align: left;
+    float: right;
+}
+
+.ext {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+div.relative {
+    position: relative;
+    float: right;
+}
+
+.upDown {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.test {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.reportButtons {
+
+    display: flex;
+    position: center;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.helpIcon {
+    align-content: flex-end;
+    width: 20px;
+    height: 20px;
+
+}
+
+.helpIconSmall {
+    align-content: flex-end;
+    width: 15px;
+    height: 15px;
+
+}
+
+.main-task {
+    margin-top: 5px;
+}
+
+.main-task table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.main-subtask table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.main-subtask {
+    margin-top: 5px;
+}
+
+#task-overview {
+    width: 60vw;
+    margin-left: 50px;
+    float: left;
+    text-align: center;
+}
+
+#task-detailedview {
+    float: left;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+}
+
+.task-details input {
+    display: block;
+    width: 300px;
+}
+
+.task-details select {
+    display: block;
+    width: 300px;
+}
+
+.task-details button[class="help"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+#subtask-overview {
+    width: 60vw;
+    margin-left: 50px;
+    float: left;
+    text-align: center;
+}
+
+#subtask-detailedview {
+    float: left;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+}
+
+.subtask-details input {
+    display: block;
+    width: 300px;
+}
+
+.subtask-details select {
+    display: block;
+    width: 300px;
+}
+
+.help-button {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border-radius: 100px;
+}
+
+.help-button img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.add-button {
+    border-radius: 50%;
+}
+
+.sort-button {
+    width: 10px;
+    height: 20px;
+    position: relative;
+}
+
+.sort-button img {
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+ul,
+#myUL {
+    list-style-type: none;
+}
+
+#myUL {
+    margin: 0;
+    padding: 0;
+}
+
+.caret {
+    cursor: pointer;
+    -webkit-user-select: none;
+    /* Safari 3.1+ */
+    -moz-user-select: none;
+    /* Firefox 2+ */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+}
+
+.caret::before {
+    content: "\25B6";
+    color: black;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.caret-down::before {
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.nested {
+    display: none;
+}
+
+.active {
+    display: block;
+}
